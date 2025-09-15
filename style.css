@@ -87,20 +87,21 @@ body {
     z-index: 6;
 }
 
-.hero-text {
+ .hero-text {
     color: rgb(211, 211, 211);
     transform: translateZ(-600px)scale(3);
-    z-index: 1;
-    font-size: 21rem;
-}
+     /* transform: translateZ(0) scale(1);  */
+    z-index: 7;
+    font-size: 15rem;
+} 
 
 
 .hero-text>h2{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: absolute;
-    left: 13%;
-    top:22%;
-    text-shadow:10px 10px 10px rgb(6, 6, 6);
+    left: 20%;
+    top:41%;
+    text-shadow:5px 5px 5px rgb(0, 0, 0);
 
 }
 .info-container {
